@@ -1,0 +1,76 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_ROBUST_REGR.R:64
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: SPSSINC_ROBUST_REGR.R:77
+msgid "ERROR:"
+msgstr ""
+"오차:"
+
+#: SPSSINC_ROBUST_REGR.R:83
+msgid "Residual standard error: "
+msgstr ""
+"잔차 표준오차:"
+
+#: SPSSINC_ROBUST_REGR.R:84
+msgid "Degrees of freedom: "
+msgstr ""
+"자유도:"
+
+#: SPSSINC_ROBUST_REGR.R:95
+msgid "Robust Regression"
+msgstr ""
+"로버스트 회귀"
+
+#: SPSSINC_ROBUST_REGR.R:97
+msgid "Coefficients"
+msgstr ""
+"계수"
+
+#: SPSSINC_ROBUST_REGR.R:103
+msgid "Case Number"
+msgstr ""
+"케이스 번호"
+
+#: SPSSINC_ROBUST_REGR.R:111
+msgid "Failed to create residuals dataset. Dataset name must not already exist: "
+msgstr ""
+"잔차 데이터 세트를 작성하지 못했습니다.  데이터 세트 이름이 미리 존재하지 않아야 합니다."
+
+#: SPSSINC_ROBUST_REGR.R:116
+msgid "Variable or Factor Value"
+msgstr ""
+"변수 또는 요인 값"
+
+#: SPSSINC_ROBUST_REGR.R:117
+msgid "Estimated Coefficient"
+msgstr ""
+"추정된 계수"
+
+#: SPSSINC_ROBUST_REGR.R:123
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"계수 데이터 세트를 작성하지 못했습니다.  데이터 세트 이름이 미리 존재하지 않아야 합니다."
+
+
