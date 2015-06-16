@@ -1,0 +1,20 @@
+Name: SPSSINC ROBUST REGR
+Dialog-Specs: SPSSINC_ROBUST_REGR.spd
+Command-Specs: SPSSINC_ROBUST_REGR.xml
+Code-Files: SPSSINC_ROBUST_REGR.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Estimate a linear regression model by robust regression, usin
+ g an M estimator.
+Description: This procedure estimates a linear regression model, robus
+ tly, using an M estimator. It uses the rlm function from the R MASS p
+ ackage. The procedure allows you to save both the residuals from the 
+ regression and the estimated coefficients.
+Author: IBM SPSS
+Version: 1.2.6
+Product-Version: 18
+Date: 1/2/2014
+Links: http://www.stats.ox.ac.uk/pub/MASS4/
+Categories: Extension Commands, R, Statistics
+Plugins: R
+R-Packages: MASS
+Translation-Catalogues: lang
