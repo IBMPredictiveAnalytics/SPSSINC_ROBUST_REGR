@@ -1,0 +1,76 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_ROBUST_REGR.R:64
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: SPSSINC_ROBUST_REGR.R:77
+msgid "ERROR:"
+msgstr ""
+"BŁĄD:"
+
+#: SPSSINC_ROBUST_REGR.R:83
+msgid "Residual standard error: "
+msgstr ""
+"Standardowy błąd resztowy: "
+
+#: SPSSINC_ROBUST_REGR.R:84
+msgid "Degrees of freedom: "
+msgstr ""
+"Stopnie swobody: "
+
+#: SPSSINC_ROBUST_REGR.R:95
+msgid "Robust Regression"
+msgstr ""
+"Regresja odporna"
+
+#: SPSSINC_ROBUST_REGR.R:97
+msgid "Coefficients"
+msgstr ""
+"Współczynniki"
+
+#: SPSSINC_ROBUST_REGR.R:103
+msgid "Case Number"
+msgstr ""
+"Numer obserwacji"
+
+#: SPSSINC_ROBUST_REGR.R:111
+msgid "Failed to create residuals dataset. Dataset name must not already exist: "
+msgstr ""
+"Nie udało się utworzyć zbioru danych reszt. Nazwa zbioru danych nie może już istnieć: "
+
+#: SPSSINC_ROBUST_REGR.R:116
+msgid "Variable or Factor Value"
+msgstr ""
+"Zmienna dla wartości czynnika"
+
+#: SPSSINC_ROBUST_REGR.R:117
+msgid "Estimated Coefficient"
+msgstr ""
+"Szacowany współczynnik"
+
+#: SPSSINC_ROBUST_REGR.R:123
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"Nie udało się utworzyć zbioru danych współczynników. Nazwa zbioru danych nie może już istnieć: "
+
+
