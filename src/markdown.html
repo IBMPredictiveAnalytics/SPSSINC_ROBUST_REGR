@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>SPSSINC ROBUST REGR Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>SPSSINC ROBUST REGR Extension Command</h1>
+
+<p>Calculate robust regression estimates</p>
+<div class="syntax">
+<p>SPSSINC ROBUST REGR DEPENDENT=<em>dependent variable</em><sup>&#42;</sup><br/>
+ENTER=<em>independent variables</em><sup>&#42;</sup>  </p>
+
+<p>/OPTIONS MISSING=LISTWISE<sup>&#42;&#42;</sup> or FAIL 
+EXECUTE=TRUE<sup>&#42;&#42;</sup> or FALSE  </p>
+
+<p>/SAVE RESIDUALSDATASET=<em>datasetname</em> COEFSDATASET=<em>datasetname</em><br/>
+PROGRAMFILE=&ldquo;<em>filespec</em>&rdquo;</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+
+<p>SPSSINC ROBUST REGR /HELP prints this information and does nothing else.</p>
+
+<pre class="example"><code>SPSSINC ROBUST REGR DEPENDENT=mpg ENTER=engine weight.
+</code></pre>
+
+<p>Split files and weight are not honored by this command.</p>
+
+<p><strong>DEPENDENT</strong> and <strong>ENTER</strong> specify the dependent and independent
+variables.  Categorical independent variables are automatically converted
+appropriately to factors.  A constant term is automatically included.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>MISSING</strong>=LISTWISE causes listwise deletion of missing values (but
+missings in factors are included as a level).  FAIL stops the procedure if
+missing values are encountered.</p>
+
+<p><strong>EXECUTE</strong>=FALSE runs the command syntax without running the robust regression.<br/>
+This is mainly useful in combination with SAVE PROGRAMFILE.</p>
+
+<h2>SAVE</h2>
+
+<p><strong>RESIDUALSDATASET</strong> causes a dataset containing the residuals to be created.
+The dataset name must not already be in use.
+The case number is included as cases will only be written for input cases with no
+missing data.  Data filtered by IBM SPSS Statistics are not passed to R and will not
+generate cases in the residuals dataset.</p>
+
+<p><strong>COEFSDATASET</strong> causes a new dataset containing the coefficients to be created.
+The dataset name must not already be in use.</p>
+
+<p><strong>PROGRAMFILE</strong> causes the R code that implements the robust regression to be written
+to the specified file.</p>
+
+<p>The SPSSINC ROBUST REGR command requires the R Integration Plug-in
+and the R MASS package (part of the VR bundle).</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
