@@ -1,11 +1,13 @@
 # SPSSINC ROBUST REGR
 ## Estimate a linear regression model by robust regression, using an M estimator.
- This procedure estimates a linear regression model, robus  tly, using an M estimator. It uses the rlm function from the R MASS p  ackage. The procedure allows you to save both the residuals from the   regression and the estimated coefficients.
+ This procedure estimates a linear regression model, robustly, using an M estimator. The procedure allows you to save both the residuals from the regression and the estimated coefficients.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
+
+Note: The SPSSINC ROBUST REGR extension is installed as part of IBM SPSS Statistics-Essentials for R.
 
 ---
 Installation intructions
