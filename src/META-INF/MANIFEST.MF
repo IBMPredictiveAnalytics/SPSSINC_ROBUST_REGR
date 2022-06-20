@@ -2,7 +2,7 @@ Name: SPSSINC ROBUST REGR
 Dialog-Specs: SPSSINC_ROBUST_REGR.spd
 Command-Specs: SPSSINC_ROBUST_REGR.xml
 Code-Files: SPSSINC_ROBUST_REGR.R
-Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Misc-Files: extsyntax.css,IBMdialogicon.png,markdown.html
 Summary: Estimate a linear regression model by robust regression, usin
  g an M estimator.
 Description: This procedure estimates a linear regression model, robus
@@ -10,11 +10,12 @@ Description: This procedure estimates a linear regression model, robus
  ackage. The procedure allows you to save both the residuals from the
  regression and the estimated coefficients.
 Author: IBM SPSS
-Version: 1.2.7
+Version: 1.2.8
 Product-Version: 18
 Date: 1/2/2014
-Links: http://www.stats.ox.ac.uk/pub/MASS4/
+Product-Version-Maximum: 99
 Categories: Extension Commands, R, Statistics
 Plugins: R
 R-Packages: MASS
+Links: http://www.stats.ox.ac.uk/pub/MASS4/
 Translation-Catalogues: lang
