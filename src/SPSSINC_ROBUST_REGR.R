@@ -3,11 +3,16 @@
 # *
 # * IBM SPSS Products: Statistics Common
 # *
-# * (C) Copyright IBM Corp. 1989, 2014
+# * (C) Copyright IBM Corp. 1989, 2014, 2022
 # *
 # * US Government Users Restricted Rights - Use, duplication or disclosure
 # * restricted by GSA ADP Schedule Contract with IBM Corp. 
 # ************************************************************************/
+
+# history
+# 28-feb-2014  original version
+# 20-jun-2o22  use factor values instead of labels
+
 
 helptext="The SPSSINC ROBUST REGR command requires the R Integration Plug-in
 and the R MASS package (part of the VR bundle).
@@ -70,8 +75,7 @@ robust<-function(dep, enter, missing="listwise", residualsdataset=NULL, coefsdat
     allvars <- c(dep,enter)
     model <- paste(dep,"~",paste(enter,collapse="+"))
 
-    dta<-spssdata.GetDataFromSPSS(allvars,missingValueToNA=TRUE,factorMode="labels")
-    
+    dta<-spssdata.GetDataFromSPSS(allvars,missingValueToNA=TRUE,factorMode="levels")
     res <- tryCatch(
             summary(resrlm <- rlm(as.formula(model), data=dta, na.action=missing, method="MM", model=FALSE)),
             error=function(e) {return(c(gettext("ERROR:",domain=domain),e))}
