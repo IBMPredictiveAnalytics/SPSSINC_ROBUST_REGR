@@ -1,4 +1,5 @@
 Name: SPSSINC ROBUST REGR
+Display-Name: Robust Regression
 Dialog-Specs: SPSSINC_ROBUST_REGR.spd
 Command-Specs: SPSSINC_ROBUST_REGR.xml
 Code-Files: SPSSINC_ROBUST_REGR.R
